@@ -12,7 +12,7 @@ RUN \
     apt-get install -y oracle-java7-installer &&\
     apt-get install -y curl
 
-ENV SPARK_VERSION 1.4.0
+ENV SPARK_VERSION 1.6.0
 ENV SPARK_HOME /usr/local/src/spark-$SPARK_VERSION
 
 RUN \
